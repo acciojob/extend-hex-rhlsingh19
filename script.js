@@ -10,7 +10,7 @@ const extendHex = (shortHex) => {
 		output+=shortHex[i] + shortHex[i];
 		i++;
 	}
-		return isCapital ? output.to upperCase():output;
+		return isCapital ? output.toupperCase():output;
 	
 };
 
