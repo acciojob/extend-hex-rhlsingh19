@@ -3,8 +3,8 @@ const extendHex = (shortHex) => {
 	let i =shortHex.length-3, isCapital=false;
 	let output="#";
 	while (i<shortHex.length){
-		let asciCode = shortHex[i].charAt[0];
-		if(asciCode>=65 && asciCode<=90){
+		let asciiCode = shortHex[i].charCodeAt[0];
+		if(asciiCode>=65 && asciiCode<=90){
 			isCapital=true;
 		}
 		output+=shortHex[i] + shortHex[i];
